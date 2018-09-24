@@ -64,7 +64,8 @@ public class InputHandler extends Thread
             return;
         }
 
-        int longestGameId = 4, longestName = 8;
+        int longestGameId = 4,
+                longestName = 8;
 
         //Calculating row sizes
         for (Map.Entry<String, List<String>> entry : runningGames.entrySet())

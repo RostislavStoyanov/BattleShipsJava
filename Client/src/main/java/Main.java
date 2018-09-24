@@ -145,7 +145,7 @@ public class Main
             String currInput = scanner.nextLine();
             currInput = currInput.toLowerCase();
 
-            if (currInput.equals("help"))
+            if ("help".equals(currInput))
             {
                 System.out.println("help - Prints this message.");
                 System.out.println("exit - Closes the client application");
@@ -156,7 +156,7 @@ public class Main
                 System.out.println("saved list - Shows list of saved games in which you have participated");
                 System.out.println("load game - Displays a list of saved games and let user choose which one to load");
             }
-            else if (currInput.equals("exit"))
+            else if ("exit".equals(currInput))
             {
                 System.out.println("Exiting..");
                 if (connectedToServer)
@@ -195,7 +195,7 @@ public class Main
                 String[] splitted = currInput.split("\\s+");
                 client.send(new Msg(MsgType.CREATE_GAME, client.getClientID(), splitted[1]));
             }
-            else if (currInput.equals("join"))
+            else if ("join".equals(currInput))
             {
                 if (!connectedToServer)
                 {
@@ -230,7 +230,7 @@ public class Main
             }
 
             //print running games
-            else if (currInput.equals("show"))
+            else if ("show".equals(currInput))
             {
                 if (!connectedToServer)
                 {
@@ -267,7 +267,7 @@ public class Main
                     logger.warn("Exception when getting message for joining game");
                 }
             }
-            else if (currInput.equals("saved list"))
+            else if ("saved list".equals(currInput))
             {
                 showSaved();
             }

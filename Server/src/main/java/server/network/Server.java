@@ -106,7 +106,7 @@ public class Server extends Thread
         try
         {
             this.serverSocket = new ServerSocket(port);
-        } catch (java.io.IOException e)
+        } catch (IOException e)
         {
             logger.warn("Exception when creating server");
         }

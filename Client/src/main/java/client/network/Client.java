@@ -123,7 +123,8 @@ public class Client
 
             clear = true;
             System.out.println("Please enter the coordinates of the left/top most block of your ship of size " + size);
-            int x, y;
+            int x;
+            int y;
             x = getCoordinate(true);
             y = getCoordinate(false);
 
@@ -136,7 +137,7 @@ public class Client
                 String wayToPut = scanner.next();
                 wayToPut = wayToPut.toLowerCase();
 
-                if (wayToPut.equals("exit") || wayToPut.equals("save") || wayToPut.equals("help"))
+                if ("exit".equals(wayToPut) || "save".equals(wayToPut) || "help".equals(wayToPut))
                 {
                     handleSpecials(wayToPut);
                 }
@@ -234,6 +235,8 @@ public class Client
                 System.out.print("Saving ..");
                 saveGame();
                 break;
+            default:
+                System.out.println("An error has occurred");
         }
     }
 
@@ -433,7 +436,7 @@ public class Client
             toRetStr = scanner.next();
             toRetStr = toRetStr.toUpperCase();
 
-            if (toRetStr.equals("EXIT") || toRetStr.equals("HELP") || toRetStr.equals("SAVE"))
+            if ("EXIT".equals(toRetStr) || "HELP".equals(toRetStr) || "SAVE".equals(toRetStr))
             {
                 handleSpecials(toRetStr.toLowerCase());
                 return getCoordinate(isLetter);

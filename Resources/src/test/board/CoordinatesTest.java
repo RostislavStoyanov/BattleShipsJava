@@ -9,7 +9,6 @@ public class CoordinatesTest
     private static Coordinates coord;
     private static Coordinates cord2;
     private static Coordinates coordCopy;
-    private static Coordinates checkNull = new Coordinates(null);
 
     @BeforeClass
     public static void setUp()

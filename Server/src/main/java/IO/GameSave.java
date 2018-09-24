@@ -10,6 +10,8 @@ import java.nio.file.*;
 public class GameSave
 {
     private String gameId, user1Id, user2Id;
+    private Path savePath;
+    private static final Logger logger = LogManager.getLogger("Server");
 
     public Board getUser1Board()
     {
@@ -38,8 +40,6 @@ public class GameSave
         return savePath;
     }
 
-    private Path savePath;
-    private static final Logger logger = LogManager.getLogger("Server");
 
     public GameSave(String gameId, String user1Id, String user2Id,
                     Board user1Board, Board user2Board, Board user1EnemyBoard, Board user2EnemyBoard)

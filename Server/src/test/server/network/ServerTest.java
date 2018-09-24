@@ -16,7 +16,7 @@ public class ServerTest
     private Server server;
 
     @Before
-    public void SetUp()
+    public void setUp()
     {
         server = new Server(4444);
     }
