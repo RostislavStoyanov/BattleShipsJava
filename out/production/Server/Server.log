@@ -1,0 +1,25 @@
+14:57:09 [main] INFO  - Server thread run
+14:57:09 [main] INFO  - Server listens on port: 4444
+14:57:09 [main] INFO  - Waiting for connections
+14:57:17 [main] INFO  - A user has connected
+14:57:17 [main] INFO  - Waiting for connections
+14:57:17 [User thread - tosho] INFO  - User thread started
+14:57:21 [User thread - tosho] ERROR - Exception when restoring file - IO 
+java.io.FileNotFoundException: C:\Users\Rostislav\Documents\battleships\out\production\Server\savesgame (The system cannot find the file specified)
+	at java.io.FileInputStream.open0(Native Method) ~[?:?]
+	at java.io.FileInputStream.open(Unknown Source) ~[?:?]
+	at java.io.FileInputStream.<init>(Unknown Source) ~[?:?]
+	at java.io.FileInputStream.<init>(Unknown Source) ~[?:?]
+	at IO.GameSave.restore(GameSave.java:131) [Server/:?]
+	at server.network.Server.loadGame(Server.java:275) [Server/:?]
+	at server.network.UserThread.run(UserThread.java:172) [Server/:?]
+14:58:18 [main] INFO  - Server thread run
+14:58:18 [main] INFO  - Server listens on port: 4444
+14:58:18 [main] INFO  - Waiting for connections
+14:58:21 [main] INFO  - A user has connected
+14:58:21 [main] INFO  - Waiting for connections
+14:58:21 [User thread - tosho] INFO  - User thread started
+15:00:43 [main] INFO  - A user has connected
+15:00:43 [main] INFO  - Waiting for connections
+15:00:43 [User thread - pesho] INFO  - User thread started
+15:00:52 [game - game thread] WARN  - Exception when reading message

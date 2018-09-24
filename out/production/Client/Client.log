@@ -1,0 +1,23 @@
+14:48:19 [Message sender] INFO  - tosho sent: GIVE_SAVED_LIST
+14:48:27 [Message sender] INFO  - tosho sent: GIVE_SAVED_LIST
+14:49:13 [Message sender] INFO  - tosho sent: CREATE_GAME
+14:49:16 [Message sender] INFO  - tosho sent: GIVE_GAME_LIST
+14:49:25 [Listener] WARN  - tosho  had exception in client when receiving message
+14:49:27 [Message sender] INFO  - Exception occurred while writing message to server
+14:49:27 [Message sender] INFO  - Thread interrupted
+14:50:35 [Message sender] INFO  - tosho sent: CREATE_GAME
+14:50:37 [Message sender] INFO  - tosho sent: JOIN_GAME
+14:51:33 [Message sender] INFO  - tosho sent: GIVE_GAME_LIST
+14:51:36 [Message sender] INFO  - tosho sent: GIVE_SAVED_LIST
+14:52:22 [Message sender] INFO  - tosho sent: GIVE_SAVED_LIST
+14:53:10 [Message sender] INFO  - tosho sent: GIVE_SAVED_LIST
+14:53:18 [Message sender] INFO  - tosho sent: GIVE_SAVED_LIST
+14:53:19 [Message sender] INFO  - tosho sent: LOAD_GAME
+14:56:40 [Listener] WARN  - tosho  had exception in client when receiving message
+14:57:19 [Message sender] INFO  - tosho sent: GIVE_SAVED_LIST
+14:57:21 [Message sender] INFO  - tosho sent: LOAD_GAME
+14:58:15 [Listener] WARN  - tosho  had exception in client when receiving message
+14:58:22 [Message sender] INFO  - tosho sent: GIVE_SAVED_LIST
+14:58:23 [Message sender] INFO  - tosho sent: LOAD_GAME
+14:58:23 [Message sender] INFO  - tosho sent: JOIN_GAME_ID
+15:00:45 [Message sender] INFO  - pesho sent: JOIN_GAME
